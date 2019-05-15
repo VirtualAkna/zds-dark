@@ -1114,3 +1114,21 @@ select {
 .main .content-container .message-content :not(.alert-box).question {
     background: #523f6f;
 }
+
+/* Searchbar for the home page */
+.content-container .search-box input,
+.search-box button[type=submit]{
+    background: transparent !important;
+    color: #fff;
+    border: none;
+    outline: 0;
+}
+.search-box button[type=submit]:focus,
+.search-box button[type=submit]:hover{
+    background: rgba(255,255,255,.1) !important;
+    border: none;
+    outline: 0;
+}
+.search-box button[type=submit]:after {
+    filter: brightness(100);
+}
