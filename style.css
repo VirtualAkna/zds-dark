@@ -1098,3 +1098,37 @@ select {
     border-color: #333;
     outline-color: #333;
 }
+
+/* Alert boxes */
+.main .content-container .article-content :not(.alert-box).warning,
+.main .content-container .message-content :not(.alert-box).warning {
+    background: #4c3b1c;
+}
+
+.main .content-container .article-content :not(.alert-box).information,
+.main .content-container .message-content :not(.alert-box).information {
+    background: #1b4b56;
+}
+
+.main .content-container .article-content :not(.alert-box).question,
+.main .content-container .message-content :not(.alert-box).question {
+    background: #523f6f;
+}
+
+/* Searchbar for the home page */
+.content-container .search-box input,
+.search-box button[type=submit]{
+    background: transparent !important;
+    color: #fff;
+    border: none;
+    outline: 0;
+}
+.search-box button[type=submit]:focus,
+.search-box button[type=submit]:hover{
+    background: rgba(255,255,255,.1) !important;
+    border: none;
+    outline: 0;
+}
+.search-box button[type=submit]:after {
+    filter: brightness(100);
+}
