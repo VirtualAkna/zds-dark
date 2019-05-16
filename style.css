@@ -1132,3 +1132,27 @@ select {
 .search-box button[type=submit]:after {
     filter: brightness(100);
 }
+
+/* Code blocks */
+.main .content-container .article-content li code:not(.hljs),
+.main .content-container .article-content p code:not(.hljs),
+.main .content-container .article-content td code:not(.hljs),
+.main .content-container .message-content li code:not(.hljs),
+.main .content-container .message-content p code:not(.hljs),
+.main .content-container .message-content td code:not(.hljs),
+.main .content-container .article-content .hljs-code-div,
+.main .content-container .message-content .hljs-code-div,
+.hljs {
+    color: #eee;
+    background: #222;
+    border-color: #222;
+}
+.main .content-container .article-content .hljs-code-div .hljs-line-numbers,
+.main .content-container .message-content .hljs-code-div .hljs-line-numbers {
+    border-color: #666;
+}
+.hljs-keyword, .hljs-literal, .hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-selector-tag, .hljs-type {color: #00bece;}
+.hljs-attribute, .hljs-link, .hljs-number, .hljs-regexp {color: rgb(0, 242, 255)}
+.hljs-subst, .hljs-title {color: #fff;}
+.hljs-string {color: #c803b1;}
+.hljs-comment, .hljs-quote {color: #4f0;}
