@@ -1144,15 +1144,69 @@ select {
 .main .content-container .message-content .hljs-code-div,
 .hljs {
     color: #eee;
-    background: #222;
-    border-color: #222;
+    background: #111;
+    border-color: #111;
 }
 .main .content-container .article-content .hljs-code-div .hljs-line-numbers,
 .main .content-container .message-content .hljs-code-div .hljs-line-numbers {
     border-color: #666;
 }
-.hljs-keyword, .hljs-literal, .hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-selector-tag, .hljs-type {color: #00bece;}
-.hljs-attribute, .hljs-link, .hljs-number, .hljs-regexp {color: rgb(0, 242, 255)}
-.hljs-subst, .hljs-title {color: #fff;}
-.hljs-string {color: #c803b1;}
-.hljs-comment, .hljs-quote {color: #4f0;}
+.hljs-keyword,
+.hljs-literal,
+.hljs-name,
+.hljs-section,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-selector-tag,
+.hljs-type,
+.codehilite .kc,
+.codehilite .kd,
+.codehilite .kn,
+.codehilite .k,
+.codehilite .nt,
+.codehilite .kr {
+    color: #00bece;
+}
+.hljs-attribute,
+.hljs-link,
+.hljs-number,
+.hljs-regexp,
+.codehilite .mf,
+.codehilite .mh,
+.codehilite .mi,
+.codehilite .mo,
+.codehilite .o,
+.codehilite .nv {
+    color: rgb(0, 242, 255)
+}
+.hljs-subst,
+.hljs-title {
+    color: #fff;
+}
+.hljs-string,
+.codehilite .s,
+.codehilite .s1,
+.codehilite .s2,
+.codehilite .sb,
+.codehilite .sc,
+.codehilite .nb {
+    color: #ff00e1;
+}
+.hljs-comment,
+.hljs-quote,
+.codehilite .c,
+.codehilite .c1,
+.codehilite .cs,
+.codehilite .bp {
+    color: #4f0;
+}
+.hljs-tag {
+    background: transparent;
+    color: #00bece;
+}
+.hljs-meta {
+    color: #fba500;
+}
+.codehilite .cp {
+    color: #cf55ff;
+}
