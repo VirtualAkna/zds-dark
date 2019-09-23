@@ -106,6 +106,9 @@ select,
     border: 1px solid #3C3F41;
 }
 
+.search-box button[type="submit"] {
+  background-color: #5e5e5e;
+}
 .profile-card {
   color: #fff !important;
   background-color: #464646;
