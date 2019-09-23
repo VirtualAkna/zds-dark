@@ -106,6 +106,16 @@ select,
     border: 1px solid #3C3F41;
 }
 
+.profile-card {
+  color: #fff !important;
+  background-color: #464646;
+  border-color: #222;
+}
+.avatar figure {
+  background-color: #0000;
+}
+
+
 
 /* GREY 3 */
 #modals input,
